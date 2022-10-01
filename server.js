@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(httpRoute);
 
 // res.json() allows us to return JSON instead of a buffer, string, or static file
-app.get("/api", (req, res) => res.json(dbData));
+
 
 app.listen(PORT, () =>
   console.log(`Example app listening at http://localhost:${PORT}`)
