@@ -1,4 +1,8 @@
 const express = require ('express');
 const router = express.Router();
+const dbData = require("../../db/db.json");
 
-app.get("/api", (req, res) => res.json(dbData));
+router.get("/notes", (req, res) => res.json(dbData));
+
+
+module.exports = router;
