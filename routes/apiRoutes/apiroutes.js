@@ -20,6 +20,10 @@ router.post("/notes" , (req, res) => {
         })
     })
 
+router.get("/notes/:id", (req, res) => {
+    
+})
+
     // fs.writeFile('db/db.json', JSON.stringify(dbData), (err, data) => {
     //     if (err) throw err;
     //     console.log(data);
