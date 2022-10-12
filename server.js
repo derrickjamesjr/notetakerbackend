@@ -5,7 +5,7 @@ const httpRoute = require('./routes/httpRoutes');
 const apiRoute = require('./routes/apiRoutes');
 
 // Require the JSON file and assign it to a variable called `termData`
-// const PORT;
+const PORT = 3001;
 
 // Initialize our app variable by setting it to the value of express()
 const app = express();
