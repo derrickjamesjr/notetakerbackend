@@ -20,7 +20,7 @@ router.post("/notes", (req, res) => {
     obj.forEach((dbData, i) => {
       dbData.id = i + 1;
     });
-    // write(obj);
+    write(obj);
 
     // console.log(newdb);})
   });
@@ -35,11 +35,7 @@ router.post("/notes", (req, res) => {
       }
     );
   }
-  function render(data) {
-
-  }
 });
-
 // router.get("/notes/:id", (req, res) => {
 //     const id = req.params.id;
 
